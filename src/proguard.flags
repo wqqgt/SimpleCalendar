@@ -1,23 +1,23 @@
--keep class com.android.calendar.selectcalendars.SelectCalendarsSyncFragment
--keep class com.android.calendar.OtherPreferences
--keep class com.android.calendar.AboutPreferences
--keepclassmembers class com.android.calendar.AllInOneActivity {
+-keep class com.wqqgt.simplecalendar.selectcalendars.SelectCalendarsSyncFragment
+-keep class com.wqqgt.simplecalendar.OtherPreferences
+-keep class com.wqqgt.simplecalendar.AboutPreferences
+-keepclassmembers class com.wqqgt.simplecalendar.AllInOneActivity {
   *** setControlsOffset(...);
 }
--keepclassmembers class com.android.calendar.selectcalendars.SelectVisibleCalendarsActivity {
+-keepclassmembers class com.wqqgt.simplecalendar.selectcalendars.SelectVisibleCalendarsActivity {
   *** handleSelectSyncedCalendarsClicked(...);
 }
--keepclassmembers class com.android.calendar.AllInOneActivity {
+-keepclassmembers class com.wqqgt.simplecalendar.AllInOneActivity {
   *** handleSelectSyncedCalendarsClicked(...);
 }
--keepclassmembers class com.android.calendar.AsyncQueryService {
+-keepclassmembers class com.wqqgt.simplecalendar.AsyncQueryService {
   *** setTestHandler(...);
   *** getLastCancelableOperation(...);
 }
--keepclassmembers class com.android.calendar.AsyncQueryServiceHelper$OperationInfo {
+-keepclassmembers class com.wqqgt.simplecalendar.AsyncQueryServiceHelper$OperationInfo {
   *** equivalent(...);
 }
--keepclassmembers class com.android.calendar.DayView {
+-keepclassmembers class com.wqqgt.simplecalendar.DayView {
   *** setAnimateDayHeight(...);
   *** setAnimateDayEventHeight(...);
   *** setMoreAllDayEventsTextAlpha(...);
@@ -27,10 +27,10 @@
   *** setEventsAlpha(...);
   *** getEventsAlpha(...);
 }
--keepclassmembers class com.android.calendar.month.MonthWeekEventsView {
+-keepclassmembers class com.wqqgt.simplecalendar.month.MonthWeekEventsView {
   *** setAnimateTodayAlpha(...);
 }
--keepclassmembers class com.android.calendar.event.EditEventHelper {
+-keepclassmembers class com.wqqgt.simplecalendar.event.EditEventHelper {
  *** updateRecurrenceRule(...);
  *** extractDomain(...);
 }

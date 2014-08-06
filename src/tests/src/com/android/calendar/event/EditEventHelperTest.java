@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.calendar.event;
+package com.wqqgt.simplecalendar.event;
 
 import android.content.ContentProvider;
 import android.content.ContentProviderOperation;
@@ -35,12 +35,12 @@ import android.text.format.DateUtils;
 import android.text.format.Time;
 import android.text.util.Rfc822Token;
 
-import com.android.calendar.AbstractCalendarActivity;
-import com.android.calendar.AsyncQueryService;
-import com.android.calendar.CalendarEventModel;
-import com.android.calendar.CalendarEventModel.ReminderEntry;
-import com.android.calendar.R;
-import com.android.calendar.Utils;
+import com.wqqgt.simplecalendar.AbstractCalendarActivity;
+import com.wqqgt.simplecalendar.AsyncQueryService;
+import com.wqqgt.simplecalendar.CalendarEventModel;
+import com.wqqgt.simplecalendar.CalendarEventModel.ReminderEntry;
+import com.wqqgt.simplecalendar.R;
+import com.wqqgt.simplecalendar.Utils;
 import com.android.common.Rfc822Validator;
 
 import java.util.ArrayList;

@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.calendar;
+package com.wqqgt.simplecalendar;
 
 import android.content.ContentResolver;
 import android.content.ContentValues;

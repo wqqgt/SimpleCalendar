@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.calendar;
+package com.wqqgt.simplecalendar;
 
-import com.android.calendar.AsyncQueryService.Operation;
-import com.android.calendar.AsyncQueryServiceHelper.OperationInfo;
+import com.wqqgt.simplecalendar.AsyncQueryService.Operation;
+import com.wqqgt.simplecalendar.AsyncQueryServiceHelper.OperationInfo;
 
 import android.content.ComponentName;
 import android.content.ContentProvider;

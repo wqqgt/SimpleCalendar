@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.calendar.alerts;
+package com.wqqgt.simplecalendar.alerts;
 
 import android.text.format.Time;
 

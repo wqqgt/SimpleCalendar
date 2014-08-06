@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.calendar.alerts;
+package com.wqqgt.simplecalendar.alerts;
 
 import static android.app.Notification.PRIORITY_DEFAULT;
 import static android.app.Notification.PRIORITY_HIGH;
@@ -31,9 +31,9 @@ import android.test.suitebuilder.annotation.Smoke;
 import android.text.format.DateUtils;
 import android.text.format.Time;
 
-import com.android.calendar.GeneralPreferences;
-import com.android.calendar.alerts.AlertService.NotificationInfo;
-import com.android.calendar.alerts.AlertService.NotificationWrapper;
+import com.wqqgt.simplecalendar.GeneralPreferences;
+import com.wqqgt.simplecalendar.alerts.AlertService.NotificationInfo;
+import com.wqqgt.simplecalendar.alerts.AlertService.NotificationWrapper;
 
 import junit.framework.Assert;
 
